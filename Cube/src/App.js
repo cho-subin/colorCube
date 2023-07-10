@@ -1,42 +1,24 @@
 import './App.css';
+import Box1 from './components/Box1';
+import Box2 from './components/Box2';
+import Box3 from './components/Box3';
+import Box4 from './components/Box4';
+import FrontBox from './components/FrontBox';
 
 function App() {
   return (
     <div className="App">
       <div className="container">
         <div className='box_container'>
-          <div className='box_300px1'>
-            <div className='box1_container'>
-              <div className='box1_300px1'></div>
-              <div className='box1_300px2'></div>
-            </div>
-            <div className='box1_container'>
-              <div className='box1_300px3'></div>
-              <div className='box1_300px4'></div>
-            </div>
-          </div>
-          <div className='box_300px2'></div>
+          <Box1/>
+          <Box2/>
         </div>
         <div className='box_container'>
-          <div className='box_300px3'>
-            <div className='box3_container'>
-              <div className='box3_300px1'></div>
-              <div className='box3_300px2'></div>
-            </div>
-            <div className='box3_container'>
-              <div className='box3_300px3'></div>
-              <div className='box3_300px4'></div>
-            </div>
-          </div>
-          <div className='box_300px4'></div>
+          <Box3/>
+          <Box4/>
         </div>
         <div className='frontBox_container1'>
-          <div className='frontBox_300px'>
-            <div className='frontBox_300px1'></div>
-            <div className='frontBox_300px2'></div>
-            <div className='frontBox_300px3'></div>
-            <div className='frontBox_300px4'></div>
-          </div>
+          <FrontBox/>
         </div>
       </div>
     </div>

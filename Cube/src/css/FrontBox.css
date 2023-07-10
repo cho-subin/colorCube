@@ -1,0 +1,52 @@
+.frontBox_300px {
+    position: relative;
+    background-color: #40fe00;
+    width: 297px;
+    height: 297px;
+    border: 3px solid black;
+}
+
+.frontBox_300px1 {
+    position: absolute;
+    translate: -2% 50%;
+    z-index: 1;
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+
+.frontBox_300px2 {
+    position: absolute;
+    translate: 150% -50%;
+    z-index: 2;
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    box-sizing: border-box;
+
+}
+
+.frontBox_300px3 {
+    position: absolute;
+    translate: 50% 100%;
+    z-index: 3;
+    background-color: #F0F0F0;
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+
+.frontBox_300px4 {
+    position: absolute;
+    translate: -48% 148%;
+    z-index: 4;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    box-sizing: border-box;
+}

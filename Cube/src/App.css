@@ -1,7 +1,3 @@
-.body {
-  margin: 0;
-  padding: 0;
-}
 
 .App {
   display: flex;
@@ -13,6 +9,7 @@
   height: 100vh;
 
   margin: 0;
+  z-index: 1;
 }
 
 .container {
@@ -29,207 +26,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.box_300px1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-  background-color: white;
-  width: 300px;
-  height: 300px;
-  box-sizing: border-box;
-}
-
-.box1_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.box1_300px1 {
-  background-color: white;
-  width: 150px;
-  height: 150px;
-  border-top: 3px solid black;
-  border-left: 3px solid black;
-  border-right: 1.5px solid black;
-  box-sizing: border-box;
-}
-
-.box1_300px2 {
-  background-color: magenta;
-  width: 150px;
-  height: 150px;
-  border-top: 3px solid black;
-  border-left: 1.5px solid black;
-  box-sizing: border-box;
-}
-
-.box1_300px3 {
-  background-color: magenta;
-  width: 150px;
-  height: 150px;
-  border-top: 3px solid black;
-  border-left: 3px solid black;
-  border-right: 1.5px solid black;
-  box-sizing: border-box;
-}
-
-.box1_300px4 {
-  background-color: rgb(109, 102, 202);
-  width: 150px;
-  height: 150px;
-  border-top: 3px solid black;
-  border-left: 3px solid black;
-  border-right: 1.5px solid black;
-  border-bottom: 1.5px solid black;
-  box-sizing: border-box;
-}
-
-.box_300px2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  width: 300px;
-  height: 300px;
-  box-sizing: border-box;
-  border-top: 1.5px solid black;
-  border-left: 3px solid black;
-  border-right: 1.5px solid black;
-  border-bottom: 3px solid black;
-}
-
-.box_300px3 {
-  background-color: black;
-  width: 300px;
-  height: 300px;
-  box-sizing: border-box;
-}
-
-.box3_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.box3_300px1 {
-  background-color: black;
-  width: 150px;
-  height: 150px;
-  border-top: 3px solid black;
-  border-left: 3px solid black;
-  border-right: 1.5px solid black;
-  box-sizing: border-box;
-}
-
-.box3_300px2 {
-  background-color: black;
-  width: 150px;
-  height: 150px;
-  border-top: 3px solid black;
-  border-left: 1.5px solid black;
-  box-sizing: border-box;
-}
-
-.box3_300px3 {
-  background-color: magenta;
-  width: 150px;
-  height: 150px;
-  border-top: 3px solid black;
-  border-left: 3px solid black;
-  border-right: 1.5px solid black;
-  box-sizing: border-box;
-}
-
-.box3_300px4 {
-  background-color: aqua;
-  width: 150px;
-  height: 150px;
-  border-top: 3px solid black;
-  border-right: 3px solid black;
-  box-sizing: border-box;
-}
-
-.box_300px4 {
-  background-color: yellow;
-  width: 300px;
-  height: 300px;
-  border-top: 3px solid black;
-  border-left: 1.5px solid black;
-  border-right: 3px solid black;
-  border-bottom: 3px solid black;
-  box-sizing: border-box;
+  z-index: 2;
 }
 
 .frontBox_container1 {
   position: absolute;
-}
-
-.frontBox_300px {
-  position: relative;
-  
-  background-color: #40fe00;
-  width: 300px;
-  height: 300px;
-  border-top: 3px solid black;
-  border-left: 1.5px solid black;
-  border-right: 3px solid black;
-  border-bottom: 3px solid black;
-  box-sizing: border-box;
-}
-
-.frontBox_300px1 {
-  position: absolute;
-  top: 75px;
-  left: 0px;
-  z-index: 1;
-  background-color: red;
-  width: 150px;
-  height: 150px;
-  border-top: 3px solid black;
-  border-right: 3px solid black;
-  border-bottom: 3px solid black;
-  box-sizing: border-box;
-}
-
-.frontBox_300px2 {
-  position: absolute;
-  top: -75px;
-  left: 225px;
-  z-index: 2;
-  background-color: blue;
-  width: 150px;
-  height: 150px;
-  border: 3px solid black;
-  box-sizing: border-box;
-
-}
-
-.frontBox_300px3 {
-  position: absolute;
-  bottom: 0px;
-  left: 75px;
-  z-index: 3;
-  background-color: white;
-  width: 150px;
-  height: 150px;
-  border-top: 3px solid black;
-  border-right: 3px solid black;
-  border-left: 3px solid black;
-  box-sizing: border-box;
-}
-
-.frontBox_300px4 {
-  position: absolute;
-  top: 225px;
-  left: -75px;
-  z-index: 4;
-  background-color: white;
-  width: 150px;
-  height: 150px;
-  box-sizing: border-box;
+  z-index: 8;
 }
